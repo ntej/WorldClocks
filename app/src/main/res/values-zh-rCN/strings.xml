@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">大纪元</string>
+
+    <!--activity_main Strings-->
+    <string name="title">米利斯 自朱利安日</string>
+    <string name="sub_titile">捕捉</string>
+    <string name="sync_button_title">同步</string>
+    <string name="sync_button_progess_title">同步..</string>
+
+    <!--Toolbar Strings-->
+    <string name="search_title">时区/时间/日期/抵消</string>
+    <string name="search_hint">搜索...</string>
+    <string name="menu_snapshot_title">快照 Millis</string>
+    <string name="menu_about">关于</string>
+    <string name="about_app"><b>由开发:</b>\nTeja K(<i>Email:ntejdev@gmail.com</i>)\nBalaji D(<i>devinenibalaji@gmail.com</i>)\n\n<b>学分:</b>\n毫秒是从同步的 \'currentmillis.com\' 免费同步服务\n\n<b>记得:</b>\n请在每次快照快照同步时获取准确的unix时间戳和所有区域的时间.\n\n所有显示的时区都直接来自java语言框架.</string>
+
+
+    <!--MainActivity toast messages-->
+
+    <string name="app_start_toast">时区和相应的时间</string>
+    <string name="volley_error_snackbar_title">出了些问题！请再试一次</string>
+    <string name="volley_error_snackbar_action">重试</string>
+    <string name="millis_snap_shorted_toast">时区使用快照更新</string>
+
+
+</resources>

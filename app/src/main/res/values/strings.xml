@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EpochTime</string>
+
+    <!--activity_main Strings-->
+    <string name="title">Millis since Julian Day</string>
+    <string name="sub_titile">Snapped</string>
+    <string name="sync_button_title">Synchronize</string>
+    <string name="sync_button_progess_title">Synchronizing...</string>
+
+    <!--Toolbar Strings-->
+    <string name="search_title">timezone/time/date/offset</string>
+    <string name="search_hint">Search...</string>
+    <string name="menu_snapshot_title">Snapshot Millis</string>
+    <string name="menu_about">About</string>
+    <string name="about_app"><b>Developed by:</b>\nTeja K(<i>Email:ntejdev@gmail.com</i>)\nBalaji D(<i>devinenibalaji@gmail.com</i>)\n\n<b>Credits:</b>\nThe millis are synchronized from \'currentmillis.com\' free sync service\n\n<b>Remember:</b>\nPlease synchronize every time you snapshot millis to get accurate unix time stamp and times in all zones.\n\nAll the times zones displayed are directly from java language framework.</string>
+
+    <!--MainActivity toast messages-->
+
+<string name="app_start_toast">Timezones and respective times for snapped millis</string>
+    <string name="volley_error_snackbar_title">Something went wrong! Please try again</string>
+    <string name="volley_error_snackbar_action">Retry</string>
+    <string name="millis_snap_shorted_toast">Timezones updated with snapped millis</string>
+
+
+</resources>

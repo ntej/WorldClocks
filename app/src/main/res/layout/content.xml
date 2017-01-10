@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#20679e"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title"
+            android:textColor="@color/titleColor"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="0000000000000"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:text="@string/sub_titile"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/snap_image"
+            android:layout_below="@+id/timeTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/snappedMillisTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snap_image"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:id="@+id/card1buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/snappedMillisTextView"
+            android:layout_centerHorizontal="true">
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                android:id="@+id/syncProcessButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card1Button_height"
+                android:layout_marginTop="8dp"
+                android:text="@string/sync_button_title"
+                android:textColor="@android:color/white"
+                custom:pb_colorComplete="@color/green_complete"
+                custom:pb_colorError="@color/red_error"
+                custom:pb_colorNormal="@color/blue_normal"
+                custom:pb_colorPressed="@color/blue_pressed"
+                custom:pb_colorProgress="@color/purple_progress"
+                custom:pb_textComplete="Success"
+                custom:pb_textError="Error"
+                custom:pb_textProgress="@string/sync_button_progess_title" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/card1">
+
+        <TextView
+                android:id="@+id/zonesUpdateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#b9b9b9"
+                android:textAlignment="center"
+            android:textStyle="italic"/>
+
+        <ListView
+            android:id="@+id/timeZonesListView"
+            android:layout_below="@+id/zonesUpdateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@android:color/transparent" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

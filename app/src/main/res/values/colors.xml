@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <!--For material clone theme-->
+    <color name="colorPrimaryM">#cccccc</color>
+    <color name="colorPrimaryDarkM">#28343a</color>
+    <color name="colorAccentM">#FF80CBC4</color>
+    <color name="colorBackgroundM">#cccccc</color>
+
+    <!--Aother-->
+    <color name="titleColor">#ffffff</color>
+    <color name="card1SnapButtonBackground">#29d932</color>
+    <color name="card1SyncButtonBackground">#ff6f71</color>
+    <color name="card1buttonTextColor">#ff6f71</color>
+</resources>
