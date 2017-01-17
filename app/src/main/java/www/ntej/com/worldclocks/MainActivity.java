@@ -312,7 +312,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     searchManager.getSearchableInfo(getComponentName()));
 
 
-            return true;
+            return (super.onCreateOptionsMenu(menu));
 
     }
 

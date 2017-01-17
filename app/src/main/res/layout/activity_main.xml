@@ -17,8 +17,7 @@
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        android:fitsSystemWindows="true"
-        />
+        android:fitsSystemWindows="true" />
 
     <RelativeLayout
         android:layout_marginTop="2dp"
